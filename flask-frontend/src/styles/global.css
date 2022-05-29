@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+:root {
+  --bg: #121212;
+  --fg: #fefefe;
+  --accent: #ff80ab;
+  --background: url(pattern1.svg);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--fg);
+  margin: 0;
+  background-color: var(--bg);
+  text-align: center;
+  background-image: var(--background);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+button {
+  padding: 10px;
+  font-size: 1.125rem;
+  background-color: var(--accent);
+  color: var(--bg);
+  border: none;
+  transition-duration: 0.4s;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+button:hover {
+  background-color: var(--fg);
+  transition-duration: 0.4s;
+}
